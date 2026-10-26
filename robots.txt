@@ -1,0 +1,6 @@
+# robots.txt for Reed Gram Seeds
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://bodabandasrinath.github.io/red-gram-seeds/sitemap.xml

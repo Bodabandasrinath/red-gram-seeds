@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Home Page -->
+  <url>
+    <loc>https://bodabandasrinath.github.io/red-gram-seeds/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bodabandasrinath.github.io/red-gram-seeds/" />
+    <xhtml:link rel="alternate" hreflang="te" href="https://bodabandasrinath.github.io/red-gram-seeds/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bodabandasrinath.github.io/red-gram-seeds/" />
+    <image:image>
+      <image:loc>https://bodabandasrinath.github.io/red-gram-seeds/owner-b-srinivasulu.jpeg</image:loc>
+      <image:title>B. Srinivasulu - Owner of Reed Gram Seeds</image:title>
+      <image:caption>Owner B. Srinivasulu in Rampalli, Thugali Mandal, Kurnool District</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Availability & Seed Varieties Page -->
+  <url>
+    <loc>https://bodabandasrinath.github.io/red-gram-seeds/availability.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bodabandasrinath.github.io/red-gram-seeds/availability.html" />
+    <xhtml:link rel="alternate" hreflang="te" href="https://bodabandasrinath.github.io/red-gram-seeds/availability.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bodabandasrinath.github.io/red-gram-seeds/availability.html" />
+    <image:image>
+      <image:loc>https://bodabandasrinath.github.io/red-gram-seeds/dhanalakshmi-seeds.png</image:loc>
+      <image:title>Dhanalakshmi Red Gram Seeds (ధనలక్ష్మి కంది విత్తనాలు)</image:title>
+      <image:caption>High Yielding Bold Red Gram Seeds available at Reed Gram Seeds Rampalli</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bodabandasrinath.github.io/red-gram-seeds/lakshmi-seeds.png</image:loc>
+      <image:title>Lakshmi Red Gram Seeds (లక్ష్మి కంది విత్తనాలు)</image:title>
+      <image:caption>Farmer Trusted Drought Tolerant Red Gram Seeds available at Reed Gram Seeds Rampalli</image:caption>
+    </image:image>
+  </url>
+</urlset>
