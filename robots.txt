@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://bodabandasrinath.github.io/red-gram-seeds/sitemap.xml
+Sitemap: https://red-gram-seeds.vercel.app/sitemap.xml
