@@ -3,44 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Reed Gram Seeds - Red gram seed seller in Rampalli, Thugali Mandal, Kurnool District, Andhra Pradesh. Check seed availability and contact us.">
-  <title>Reed Gram Seeds | Red Gram Seeds</title>
+  <meta name="description" content="Reed Gram Seeds - Red gram seed seller in Rampalli, Thugali Mandal, Kurnool District, Andhra Pradesh. Check seed availability for Dhanalakshmi and Lakshmi varieties and contact us.">
+  <title>Reed Gram Seeds | Quality Red Gram Seeds in Rampalli, Kurnool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
     <div class="container nav">
-      <a class="brand" href="#home" aria-label="Reed Gram Seeds home">
+      <a class="brand" href="index.html" aria-label="Reed Gram Seeds home">
         <span class="brand-mark">RG</span>
-        <span><strong>Reed Gram Seeds</strong><small>Quality Red Gram Seeds</small></span>
+        <span>
+          <strong>Reed Gram Seeds</strong>
+          <small data-i18n="nav.brandSub">Quality Red Gram Seeds</small>
+        </span>
       </a>
-      <button class="menu" aria-label="Open menu">☰</button>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#product">Seeds</a>
-        <a href="#owner">Owner</a>
-        <a href="#availability">Availability</a>
-        <a href="#contact">Contact</a>
-      </nav>
+
+      <div class="nav-right">
+        <!-- Dual Language Switcher: 1. English, 2. Telugu -->
+        <div class="lang-switcher" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">English</button>
+          <button type="button" class="lang-btn" data-lang="te" aria-pressed="false">తెలుగు</button>
+        </div>
+
+        <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+
+        <nav>
+          <a href="index.html#home" class="active" data-i18n="nav.home">Home</a>
+          <a href="index.html#about" data-i18n="nav.about">About</a>
+          <a href="availability.html" class="nav-avail-highlight" data-i18n="nav.availability">Check Availability ✨</a>
+          <a href="index.html#product" data-i18n="nav.seeds">Seeds</a>
+          <a href="index.html#owner" data-i18n="nav.owner">Owner</a>
+          <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">🌱 Local Seed Seller • Rampalli</span>
-          <h1>Red Gram Seeds for <span>Better Farming</span></h1>
-          <p>Reed Gram Seeds supplies red gram seeds to farmers and customers in and around Rampalli, Thugali Mandal, Kurnool District.</p>
+          <span class="eyebrow" data-i18n="hero.eyebrow">🌱 Local Seed Seller • Rampalli, Kurnool</span>
+          <h1 data-i18n="hero.title">Red Gram Seeds for <span>Better Farming</span></h1>
+          <p data-i18n="hero.desc">Reed Gram Seeds supplies top-quality red gram seeds (Dhanalakshmi & Lakshmi varieties) to farmers and customers in Rampalli, Thugali Mandal, Kurnool District and surrounding regions.</p>
           <div class="actions">
-            <a class="btn primary" href="tel:+919490337029">Call 9490337029</a>
-            <a class="btn whatsapp" href="https://wa.me/919490337029?text=Hello%20Reed%20Gram%20Seeds%2C%20I%20want%20to%20check%20red%20gram%20seed%20availability." target="_blank" rel="noopener">WhatsApp Us</a>
+            <a class="btn primary" href="availability.html" data-i18n="hero.checkBtn">🌾 Check Seed Availability →</a>
+            <a class="btn secondary" href="tel:+919490337029" data-i18n="hero.callBtn">📞 Call 9490337029</a>
+            <a class="btn whatsapp wa-general-link" href="https://wa.me/919490337029?text=Hello%20Reed%20Gram%20Seeds%2C%20I%20want%20to%20check%20red%20gram%20seed%20availability." target="_blank" rel="noopener" data-i18n="hero.whatsappBtn">💬 WhatsApp Us</a>
           </div>
           <div class="trust-row">
-            <span>✓ Local seller</span>
-            <span>✓ Availability enquiries</span>
-            <span>✓ Farmer friendly</span>
+            <span data-i18n="hero.trust1">✓ Local Trusted Seller</span>
+            <span data-i18n="hero.trust2">✓ Live Stock Enquiries</span>
+            <span data-i18n="hero.trust3">✓ Farmer Friendly Support</span>
           </div>
         </div>
         <div class="hero-art" aria-label="Red gram crop illustration">
@@ -51,109 +69,149 @@
           </div>
           <div class="seed-card">
             <span>🌱</span>
-            <div><strong>Red Gram</strong><small>Seeds</small></div>
+            <div>
+              <strong data-i18n="hero.badgeTitle">Red Gram Seeds</strong>
+              <small data-i18n="hero.badgeSub">Dhanalakshmi & Lakshmi</small>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="section">
       <div class="container two-col">
         <div>
-          <span class="eyebrow">About Reed Gram Seeds</span>
-          <h2>Your local source for red gram seeds.</h2>
-          <p>We are a local seed-selling business based in Rampalli village, Thugali Mandal, Kurnool District, Andhra Pradesh.</p>
-          <p>Our website makes it easy for customers and farmers to <strong>check whether red gram seeds are currently available</strong> and contact us directly before visiting.</p>
+          <span class="eyebrow" data-i18n="about.eyebrow">About Reed Gram Seeds</span>
+          <h2 data-i18n="about.title">Your trusted local source for red gram seeds.</h2>
+          <p data-i18n="about.p1">We are a dedicated local agricultural seed business based in Rampalli village, Thugali Mandal, Kurnool District, Andhra Pradesh.</p>
+          <p data-i18n="about.p2">Our website allows farmers and buyers to quickly <strong>check seed availability</strong> for our popular <strong>Dhanalakshmi</strong> and <strong>Lakshmi</strong> red gram seed varieties and connect directly with the owner before visiting.</p>
+          <div style="margin-top: 25px;">
+            <a class="btn primary" href="availability.html" data-i18n="availSec.openBtn">🌱 View Availability & Seed Photos →</a>
+          </div>
         </div>
         <div class="info-card">
-          <h3>Business Information</h3>
-          <div class="info-line"><b>Business</b><span>Reed Gram Seeds</span></div>
-          <div class="info-line"><b>Type</b><span>Seed Seller</span></div>
-          <div class="info-line"><b>Location</b><span>Rampalli, Thugali Mandal</span></div>
-          <div class="info-line"><b>District</b><span>Kurnool, Andhra Pradesh</span></div>
-          <div class="info-line"><b>PIN</b><span>518468</span></div>
+          <h3 data-i18n="about.cardTitle">Business Information</h3>
+          <div class="info-line"><b data-i18n="about.bizLabel">Business</b><span data-i18n="about.bizVal">Reed Gram Seeds</span></div>
+          <div class="info-line"><b data-i18n="about.typeLabel">Type</b><span data-i18n="about.typeVal">Red Gram Seed Seller</span></div>
+          <div class="info-line"><b data-i18n="about.locLabel">Location</b><span data-i18n="about.locVal">Rampalli, Thugali Mandal</span></div>
+          <div class="info-line"><b data-i18n="about.distLabel">District</b><span data-i18n="about.distVal">Kurnool, Andhra Pradesh</span></div>
+          <div class="info-line"><b data-i18n="about.pinLabel">PIN Code</b><span data-i18n="about.pinVal">518468</span></div>
         </div>
       </div>
     </section>
 
+    <!-- Products Section -->
     <section id="product" class="section light">
       <div class="container">
         <div class="section-heading">
-          <span class="eyebrow">Our Product</span>
-          <h2>Red Gram Seeds</h2>
-          <p>Contact us to check current stock, seed availability and local details.</p>
+          <span class="eyebrow" data-i18n="product.eyebrow">Available Varieties</span>
+          <h2 data-i18n="product.title">Premium Red Gram Seeds</h2>
+          <p data-i18n="product.desc">We supply two proven high-yield varieties tailored for local soils and climatic conditions in Kurnool & Rayalaseema.</p>
         </div>
         <div class="product-card">
           <div class="product-visual">
-            <div class="pods"><span>● ● ●</span><span>● ● ● ●</span><span>● ● ●</span></div>
             <div class="seed-orb">🌱</div>
+            <div class="product-visual-text">1. Dhanalakshmi &bull; 2. Lakshmi</div>
           </div>
           <div class="product-copy">
-            <span class="tag">SEED PRODUCT</span>
-            <h3>Red Gram / Pigeon Pea Seeds</h3>
-            <p>For customers and farmers looking for red gram seeds in the Rampalli area and nearby villages.</p>
+            <span class="tag" data-i18n="product.tag">SEED VARIETIES</span>
+            <h3 data-i18n="product.cardTitle">Dhanalakshmi & Lakshmi Red Gram Seeds</h3>
+            <p data-i18n="product.cardDesc">Tested and trusted red gram seeds offering high germination rate, disease resistance, and robust pod bearing.</p>
             <ul>
-              <li>Check availability before visiting</li>
-              <li>Local contact support</li>
-              <li>Direct phone and WhatsApp enquiries</li>
+              <li data-i18n="product.li1">Dhanalakshmi Seeds - Bold red, high yielding variety</li>
+              <li data-i18n="product.li2">Lakshmi Seeds - Drought tolerant, farmer trusted variety</li>
+              <li data-i18n="product.li3">Direct phone & WhatsApp stock verification before visiting</li>
             </ul>
-            <a class="btn primary" href="#availability">Check Availability</a>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <a class="btn primary" href="availability.html" data-i18n="product.checkBtn">🔍 Check Seed Availability (Next Page) →</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Availability CTA Banner Section -->
     <section id="availability" class="section availability">
       <div class="container availability-box">
         <div>
-          <span class="eyebrow">Before You Visit</span>
-          <h2>Check seed availability</h2>
-          <p>We currently use phone and WhatsApp for availability enquiries. Contact us and ask about the red gram seed stock available today.</p>
+          <span class="eyebrow" data-i18n="availSec.eyebrow">Check Before You Visit</span>
+          <h2 data-i18n="availSec.title">Check current seed availability online</h2>
+          <p data-i18n="availSec.desc">View live availability status, detailed photos, and specifications for Dhanalakshmi and Lakshmi red gram seed varieties on our dedicated availability page.</p>
         </div>
         <div class="availability-actions">
-          <a class="btn primary" href="tel:+919490337029">📞 9490337029</a>
-          <a class="btn outline" href="https://wa.me/919490337029?text=Hello%20Reed%20Gram%20Seeds%2C%20please%20tell%20me%20the%20current%20red%20gram%20seed%20availability." target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a class="btn primary" href="availability.html" data-i18n="availSec.openBtn">🌱 View Availability & Seed Photos →</a>
+          <a class="btn outline" href="tel:+919490337029" data-i18n="availSec.callBtn">📞 Call 9490337029</a>
+          <a class="btn whatsapp wa-general-link" href="https://wa.me/919490337029" target="_blank" rel="noopener" data-i18n="availSec.waBtn">💬 WhatsApp Enquiry</a>
         </div>
       </div>
     </section>
 
-
+    <!-- Owner Section -->
     <section id="owner" class="section owner-section">
       <div class="container owner-grid">
         <div class="owner-photo-wrap">
           <img src="owner-b-srinivasulu.jpeg" alt="B. Srinivasulu, Owner of Reed Gram Seeds" class="owner-photo">
         </div>
         <div class="owner-copy">
-          <span class="eyebrow">Meet the Owner</span>
-          <h2>B. Srinivasulu</h2>
-          <h3>Owner, Reed Gram Seeds</h3>
-          <p>Reed Gram Seeds is locally operated by <strong>B. Srinivasulu</strong> from Rampalli village. The business focuses on supplying red gram seeds and helping farmers and customers check local seed availability before visiting.</p>
+          <span class="eyebrow" data-i18n="owner.eyebrow">Meet the Owner</span>
+          <h2 data-i18n="owner.name">B. Srinivasulu</h2>
+          <h3 data-i18n="owner.role">Owner, Reed Gram Seeds</h3>
+          <p data-i18n="owner.bio">Reed Gram Seeds is locally managed by <strong>B. Srinivasulu</strong> from Rampalli village. Committed to serving fellow farmers, he provides genuine red gram seed varieties and prompt stock updates over phone and WhatsApp.</p>
           <div class="owner-details">
-            <div><span>📍</span><p><strong>Based in</strong><br>Rampalli, Thugali Mandal, Kurnool District</p></div>
-            <div><span>📞</span><p><strong>Contact</strong><br>9490337029 / 9347875520</p></div>
+            <div>
+              <span>📍</span>
+              <p><strong data-i18n="owner.locLabel">Based in</strong><br><span data-i18n="owner.locVal">Rampalli, Thugali Mandal, Kurnool District</span></p>
+            </div>
+            <div>
+              <span>📞</span>
+              <p><strong data-i18n="owner.contactLabel">Contact</strong><br><span data-i18n="owner.contactVal">9490337029 / 9347875520</span></p>
+            </div>
           </div>
-          <a class="btn primary" href="https://wa.me/919490337029?text=Hello%20B.%20Srinivasulu%2C%20I%20want%20to%20ask%20about%20red%20gram%20seed%20availability." target="_blank" rel="noopener">WhatsApp the Owner</a>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a class="btn primary" href="availability.html" data-i18n="hero.checkBtn">🌾 Check Seed Availability →</a>
+            <a class="btn whatsapp wa-general-link" href="https://wa.me/919490337029" target="_blank" rel="noopener" data-i18n="owner.waBtn">WhatsApp B. Srinivasulu</a>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="section">
       <div class="container contact-grid">
         <div>
-          <span class="eyebrow">Contact Us</span>
-          <h2>Visit or call Reed Gram Seeds</h2>
-          <p>For availability and product enquiries, contact either of the numbers below.</p>
+          <span class="eyebrow" data-i18n="contact.eyebrow">Contact Us</span>
+          <h2 data-i18n="contact.title">Visit or call Reed Gram Seeds</h2>
+          <p data-i18n="contact.desc">For current stock inquiries, pricing, bulk orders, or farm pickup, reach out to us directly.</p>
           <div class="contact-list">
-            <a href="tel:+919490337029"><span>📞</span><div><small>Phone / WhatsApp</small><strong>9490337029</strong></div></a>
-            <a href="tel:+919347875520"><span>📞</span><div><small>Phone / WhatsApp</small><strong>9347875520</strong></div></a>
-            <a href="mailto:srinatharjun1@gmail.com"><span>✉️</span><div><small>Email</small><strong>srinatharjun1@gmail.com</strong></div></a>
+            <a href="tel:+919490337029">
+              <span>📞</span>
+              <div>
+                <small data-i18n="contact.phoneSub">Phone / WhatsApp</small>
+                <strong>9490337029</strong>
+              </div>
+            </a>
+            <a href="tel:+919347875520">
+              <span>📞</span>
+              <div>
+                <small data-i18n="contact.phoneSub">Phone / WhatsApp</small>
+                <strong>9347875520</strong>
+              </div>
+            </a>
+            <a href="mailto:srinatharjun1@gmail.com">
+              <span>✉️</span>
+              <div>
+                <small data-i18n="contact.emailSub">Email</small>
+                <strong>srinatharjun1@gmail.com</strong>
+              </div>
+            </a>
           </div>
         </div>
         <div class="address-card">
           <div class="map-icon">📍</div>
-          <h3>Our Location</h3>
-          <p>Rampalli Village,<br>Thugali Mandal,<br>Kurnool District,<br>Andhra Pradesh – 518468</p>
-          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Rampalli%2C%20Thugali%20Mandal%2C%20Kurnool%2C%20Andhra%20Pradesh%20518468" target="_blank" rel="noopener">Open in Google Maps →</a>
+          <h3 data-i18n="contact.locTitle">Our Location</h3>
+          <p data-i18n="contact.address">Rampalli Village,<br>Thugali Mandal,<br>Kurnool District,<br>Andhra Pradesh – 518468</p>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Rampalli%2C%20Thugali%20Mandal%2C%20Kurnool%2C%20Andhra%20Pradesh%20518468" target="_blank" rel="noopener" data-i18n="contact.mapLink">Open in Google Maps →</a>
         </div>
       </div>
     </section>
@@ -161,11 +219,15 @@
 
   <footer>
     <div class="container footer">
-      <div><strong>Reed Gram Seeds</strong><p>Red gram seeds • Rampalli • Kurnool</p></div>
-      <p>© <span id="year"></span> Reed Gram Seeds. All rights reserved.</p>
+      <div>
+        <strong>Reed Gram Seeds</strong>
+        <p data-i18n="footer.tagline">Quality Red Gram Seeds • Rampalli • Kurnool</p>
+      </div>
+      <p>© <span id="year"></span> <span data-i18n="footer.rights">Reed Gram Seeds. All rights reserved.</span></p>
     </div>
   </footer>
 
+  <script src="translations.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
